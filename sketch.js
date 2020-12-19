@@ -5,14 +5,14 @@ var bg,bsc,sc=1
 var sg,sbi,bcc=0
 
 function preload(){
-    pi=loadImage('assets/player.png')
-    di=loadImage('assets/dirt.png')
-    si=loadImage('assets/stone.png')
-    pi2=loadImage('assets/player2.png')
-    dpi=loadImage('assets/dp.png')
-    li=loadImage('assets/log.png')
-    lvi=loadImage('assets/leaf.png')
-    brk=loadImage('assets/brick.png')
+    pi=loadImage('player.png')
+    di=loadImage('dirt.png')
+    si=loadImage('stone.png')
+    pi2=loadImage('player2.png')
+    dpi=loadImage('dp.png')
+    li=loadImage('log.png')
+    lvi=loadImage('leaf.png')
+    brk=loadImage('brick.png')
 }
 
 function setup(){
