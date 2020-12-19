@@ -1,0 +1,30 @@
+class Tree{
+    constructor(x,start,end){
+        for(var i=start;i>end;i-=10){
+            this.log=createSprite(x,i,10,10)
+            this.log.addImage(li)
+            this.log.scale=0.1
+            allBlocks.add(this.log)
+        }
+        this.leaf1=createSprite(this.log.x+10,this.log.y,10,10)
+        this.leaf1.addImage(lvi)
+        this.leaf1.scale=0.1
+        allBlocks.add(this.leaf1)
+        this.leaf2=createSprite(this.log.x-10,this.log.y,10,10)
+        this.leaf2.addImage(lvi)
+        this.leaf2.scale=0.1
+        allBlocks.add(this.leaf2)
+        this.leaf3=createSprite(this.log.x,this.log.y-10,10,10)
+        this.leaf3.addImage(lvi)
+        this.leaf3.scale=0.1
+        allBlocks.add(this.leaf3)
+        this.leaf4=createSprite(this.log.x+10,this.log.y+10,10,10)
+        this.leaf4.addImage(lvi)
+        this.leaf4.scale=0.1
+        allBlocks.add(this.leaf4)
+        this.leaf5=createSprite(this.log.x-10,this.log.y+10,10,10)
+        this.leaf5.addImage(lvi)
+        this.leaf5.scale=0.1
+        allBlocks.add(this.leaf5) 
+    }
+}
