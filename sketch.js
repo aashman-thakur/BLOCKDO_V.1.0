@@ -62,7 +62,7 @@ function draw(){
     drawSprites()
     camera.position.x=p.x
     camera.position.y=p.y
-    //camera.zoom=15
+    camera.zoom=15
     controls()
     if(keyDown('c')&&bcc<0){
         sc+=1
